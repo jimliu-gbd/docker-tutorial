@@ -1,0 +1,12 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+brew "cmake"
+brew "gcc"
+brew "gnu-sed"
+brew "libomp"
+brew "nspr", link: false
+brew "nss", link: false
+brew "tree"
+brew "zeromq"
+brew "zsh"
