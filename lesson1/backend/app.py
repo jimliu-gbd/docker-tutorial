@@ -11,7 +11,7 @@ class Greeting(Document):
 
 async def init():
     client = AsyncIOMotorClient(
-        "mongodb://admin-user:admin-password@192.168.6.91:27017"
+        "mongodb://admin-user:admin-password@mongo:27017"
     )
     await init_beanie(database=client.backend , document_models=[Greeting])
 
